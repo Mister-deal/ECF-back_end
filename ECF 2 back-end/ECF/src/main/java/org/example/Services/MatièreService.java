@@ -9,6 +9,6 @@ public class MatièreService {
 
     public void create(String intitule,int duration,int coefficient, String description){
         Matiere matiere=new Matiere(intitule,duration,coefficient, description);
-        //MatiereDAOImpl.create(matiere);
+        matiereDAO.create(matiere);
     }
 }

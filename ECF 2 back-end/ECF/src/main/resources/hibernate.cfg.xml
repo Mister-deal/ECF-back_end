@@ -4,6 +4,15 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
+    <mapping class="org.example.models.Departement" />
+    <mapping class="org.example.models.Etablissement" />
+    <mapping class="org.example.models.Enseignant" />
+    <mapping class="org.example.models.Note" />
+    <mapping class="org.example.models.EnseignantMatière" />
+    <mapping class="org.example.models.Etudiant" />
+    <mapping class="org.example.models.Matiere" />
+    <mapping class="org.example.models.Classe" />
+    <mapping class="org.example.models.EmploiDuTemp" />
 
   </session-factory>
 </hibernate-configuration>

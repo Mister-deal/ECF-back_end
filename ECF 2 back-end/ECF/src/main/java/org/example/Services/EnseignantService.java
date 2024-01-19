@@ -16,7 +16,7 @@ public class EnseignantService {
             return false;
         String letter="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         Enseignant enseignant=new Enseignant(nom,age, prenom, isPP, isResp);
-        //EnseignantDAOImpl.create(enseignant);
+        enseignantDAO.create(enseignant);
         return true;
     }
 
