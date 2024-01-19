@@ -7,8 +7,8 @@ import org.example.models.Etablissement;
 
 public class EtablissementService {
 
-    private final DepartementDAOImpl departementDAO=new DepartementDAOImpl();
-    private final EtablissementDAOImpl etablissementDAO=new EtablissementDAOImpl();
+    private  DepartementDAOImpl departementDAO=new DepartementDAOImpl();
+    private  EtablissementDAOImpl etablissementDAO=new EtablissementDAOImpl();
 
     public boolean create(String name,long idEtablissement){
         Etablissement etablissement=etablissementDAO.getById(idEtablissement);
