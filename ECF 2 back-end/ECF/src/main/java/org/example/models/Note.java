@@ -31,6 +31,10 @@ public class Note {
         this.idE = idE;
     }
 
+    public Note() {
+
+    }
+
     public Integer getId() {
         return id;
     }

@@ -27,6 +27,10 @@ public class Departement {
         this.idE = idE;
     }
 
+    public Departement() {
+
+    }
+
     public Integer getId() {
         return id;
     }

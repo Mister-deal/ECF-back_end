@@ -33,6 +33,10 @@ public class Matiere {
     @OneToMany(mappedBy = "idM", cascade = CascadeType.ALL)
     private List<Note> notes;
 
+    public Matiere() {
+
+    }
+
     public Set<EnseignantMatière> getEnseignantMatières() {
         return enseignantMatières;
     }

@@ -33,6 +33,10 @@ public class Classe {
         this.idE = idE;
     }
 
+    public Classe() {
+
+    }
+
     public Integer getId() {
         return id;
     }

@@ -33,6 +33,10 @@ public class EmploiDuTemp {
         this.idC = idC;
     }
 
+    public EmploiDuTemp() {
+
+    }
+
     public Enseignant getIdE() {
         return idE;
     }

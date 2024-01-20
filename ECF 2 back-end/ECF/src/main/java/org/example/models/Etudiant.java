@@ -39,6 +39,10 @@ public class Etudiant {
         this.classe = classe;
     }
 
+    public Etudiant() {
+
+    }
+
     public Integer getId() {
         return id;
     }

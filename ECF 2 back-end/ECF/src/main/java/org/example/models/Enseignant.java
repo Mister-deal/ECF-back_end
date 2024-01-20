@@ -51,6 +51,10 @@ public class Enseignant {
         this.isProfPrincipal = isProfPrincipal;
     }
 
+    public Enseignant() {
+
+    }
+
     public Boolean getResponsable() {
         return isResponsable;
     }

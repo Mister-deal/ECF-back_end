@@ -22,6 +22,10 @@ public class Etablissement {
         this.nomE = nomE;
     }
 
+    public Etablissement() {
+
+    }
+
     public Integer getId() {
         return id;
     }
